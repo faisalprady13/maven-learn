@@ -59,8 +59,4 @@ public class TddExercise {
     }
 
 
-    static int[] mergeArrays(int[] a, int[] b) {
-        int[] result = {};
-        return result;
-    }
 }

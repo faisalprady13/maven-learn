@@ -48,10 +48,4 @@ class TddExerciseTest {
         assertEquals(expected, TddExercise.factorial(number));
     }
 
-    @ParameterizedTest
-    @CsvSource(value = {"'{1,2}','{3,4}','{1,2,3,4}'",}, nullValues = {"null"})
-    void mergeArrays(int[] array1, int[] array2, int[] expected) {
-        System.out.println(array1);
-        assertEquals(expected, TddExercise.mergeArrays(array1, array2));
-    }
 }
